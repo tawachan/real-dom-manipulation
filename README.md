@@ -1,1 +1,1 @@
-# real-dom-manipulation
+JavaScript（ｊQuery）でDOMを操作する方法を簡単におさらいする

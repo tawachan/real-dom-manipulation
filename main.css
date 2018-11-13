@@ -1,0 +1,56 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.questions {
+  border: 1px black solid;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.input {
+  margin: 20px;
+}
+
+.output {
+  min-height: 50px;
+}
+
+.box-wrapper {
+  margin-top: 20px;
+  width: 60vw;
+  height: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 80%;
+  border: 1px black solid;
+}
+
+.red {
+  background: red;
+  opacity: 0.9;
+}
+
+.blue {
+  background: blue;
+  opacity: 0.9;
+}
+
+.yellow {
+  background: yellow;
+  opacity: 0.9;
+}

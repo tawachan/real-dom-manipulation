@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head>
+  <title>real dom manipulation</title>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+  <div class="questions">
+    問題A
+    <ol>
+      <li>"input" に入力した文字列を "output" に出力</li>
+      <li>入力した文字列が20字を超えたらアラートを出す</li>
+    </ol>
+  </div>
+  
+  <input class="input" placeholder="input">
+  <div class="output">output will be displayed here</div>
+
+  <div class="questions">
+    問題B
+    <ol>
+      <li>赤・青・黃 それぞれが押されたときにアラートを出す</li>
+      <li>赤・青・黃 のアラートを重複がないようにする</li>
+    </ol>
+  </div>
+
+  <div class="box-wrapper">
+    <div class="box red">
+      <div class="box blue">
+        <div class="box yellow">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script type="text/javascript" src="./main.js"></script>
+</body>
+</html>

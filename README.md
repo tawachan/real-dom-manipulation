@@ -1,1 +1,1 @@
-JavaScript（ｊQuery）でDOMを操作する方法を簡単におさらいする
+JavaScript（jQuery）でDOMを操作する方法を簡単におさらいする
